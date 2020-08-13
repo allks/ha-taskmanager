@@ -52,7 +52,7 @@ const getRandomColor = () => {
   const randomIndex = getRandomInteger(0, colors.length - 1);
 
   return colors[randomIndex];
-}
+};
 
 export const generateTask = () => {
   const dueDate = generateDate();
